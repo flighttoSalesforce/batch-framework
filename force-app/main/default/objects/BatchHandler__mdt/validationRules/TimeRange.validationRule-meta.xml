@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeRange</fullName>
+    <active>true</active>
+    <errorConditionFormula>OR(TimeOfTheDay__c &gt; 24,  TimeOfTheDay__c &lt; 0)</errorConditionFormula>
+    <errorDisplayField>TimeOfTheDay__c</errorDisplayField>
+    <errorMessage>Time of the Day should be in the rand of 00 to 24.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TimeOfTheDay__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Select the hours between 00 and 24 of GMT. For e.g. 07 means 07:00 AM and 19 means 07:00 PM</inlineHelpText>
+    <label>Time Of The Day</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>
