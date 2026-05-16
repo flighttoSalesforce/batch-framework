@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HourlyJob__c</fullName>
+    <label>Hourly Job</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Every Hour</fullName>
+                <default>false</default>
+                <label>Every Hour</label>
+            </value>
+            <value>
+                <fullName>Every 2 Hour</fullName>
+                <default>false</default>
+                <label>Every 2 Hour</label>
+            </value>
+            <value>
+                <fullName>Every 3 Hour</fullName>
+                <default>false</default>
+                <label>Every 3 Hour</label>
+            </value>
+            <value>
+                <fullName>Every 4 Hour</fullName>
+                <default>false</default>
+                <label>Every 4 Hour</label>
+            </value>
+            <value>
+                <fullName>Every 5 Hour</fullName>
+                <default>false</default>
+                <label>Every 5 Hour</label>
+            </value>
+            <value>
+                <fullName>Every 6 Hour</fullName>
+                <default>false</default>
+                <label>Every 6 Hour</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
